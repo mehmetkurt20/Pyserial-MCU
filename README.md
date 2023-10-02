@@ -22,29 +22,7 @@ Universal instructions on building, flashing, and debugging this project can be 
         -   Connect the jumper (JP9) to RX0 and the jumper (JP10) to TX1.
 -   Connect RX1 to TX0 with a wire.
 
-## Expected Output
 
-The Console UART of the device will output these messages:
-
-```
-**************** UART Example ******************
-This example sends data from one UART to another
-
-You will need to connect RX1 of UART1 and TX0 of UART0,
-located to the right of the LCD.
-
-Because UART1 is used to receive data,
-not all printf statements will be printed to the terminal.
-
-To indicate a successful UART transfer, the green LED (P1_15) will illuminate.
-The red LED (P1_14) will illuminate when the transaction fails.
-
-Push SW2 to continue
-
-UART Baud       : 115200 Hz
-Test Length     : 512 -->Data verified
-
--->EXAMPLE SUCCEEDED
 ```
 
 The green LED (P1_15) will illuminate for successful transaction.
