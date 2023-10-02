@@ -24,6 +24,3 @@ Universal instructions on building, flashing, and debugging this project can be 
 
 
 ```
-
-The green LED (P1_15) will illuminate for successful transaction.
-The red LED (P1_14) will illuminate if transaction failed.
